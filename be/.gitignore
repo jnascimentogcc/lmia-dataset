@@ -153,4 +153,3 @@ buildNumber.properties
 /src/main/test/
 /src/main/test/
 /.idea/
-/src/main/resources/application.properties
