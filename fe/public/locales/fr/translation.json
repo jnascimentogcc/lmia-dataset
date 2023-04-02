@@ -1,0 +1,10 @@
+{
+    "dashboard": "Dashboard",
+    "deposit": "Deposit",
+    "withdraw": "Withdraw",
+    "profile": "Profile",
+    "news": "News",
+    "exit": "Logout",
+    "signup": "New Account",
+    "signin": "Login"
+}

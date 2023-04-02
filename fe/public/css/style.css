@@ -1,0 +1,51 @@
+/* 
+# Google Font
+font-family: 'Ubuntu', sans-serif;
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+Ex: font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--p-text-black);
+
+# Dark pallete
+https://colorhunt.co/palette/2c3333395b64a5c9cae7f6f2
+*/
+
+/* Vartiables */
+:root {
+    --p-color-primary: #2C3333;
+    --p-color-second: #395B64;
+    --p-color-font: #A5C9CA;
+    --p-color-destak: #E7F6F2;
+    --p-white: #ffffff;
+    --p-black: #000000;
+    --p-gray: #393939;
+    --p-line: #fbe6d8;
+    --p-shadow: rgb(222, 95, 27, 0.5);
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: #ededed;
+}
+
+/* Google Icons */
+.material-symbols-outlined {
+    color: var(--p-label-black);
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 600,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
